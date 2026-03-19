@@ -76,7 +76,22 @@
 						"character"
 					]
 				}
-			
+			},
+			"response": []
+		},
+		{
+			"name": "Get one character",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.disneyapi.dev/character/753",
+					"protocol": "https",
+					"host": [
+						"api",
+						"disneyapi",
+						"dev"
+					],
 					"path": [
 						"character",
 						"753"
